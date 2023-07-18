@@ -17,7 +17,7 @@ function App() {
   const [input, setInput] = useState('');
   const [prevInput, setPrevInput] = useState('');
   const [operator, setOperator] = useState('');
-
+  //
   function btnClickHandler(valueBtn) {
     valueBtn === 'AC'
       ? resetInput(setInput, setOperator, setPrevInput)

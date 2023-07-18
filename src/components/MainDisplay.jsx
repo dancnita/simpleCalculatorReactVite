@@ -2,7 +2,7 @@ function MainDisplay({ input }) {
   return (
     <>
       <div>
-        <div>{input}</div>
+        <div>{input === '' ? 0 : input}</div>
       </div>
     </>
   );
